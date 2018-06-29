@@ -8,7 +8,18 @@ def loveVsFriendship(s: String): Int = {
 
 loveVsFriendship("hello")
 
-//Good solution from website
+//Good solutions from website
+
 //def loveVsFriendship(s: String): Int = {
 //  s.map(c => c - 'a' + 1).sum
+//}
+
+
+//object LoveVsFriendship {
+//  def score(c :Char): Int = {
+//    c - 'a' + 1
+//  }
+//  def loveVsFriendship(s: String): Int = {
+//    s.map(score).sum
+//  }
 //}
